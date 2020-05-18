@@ -96,7 +96,7 @@ int main(int argc, char **argv)
 	array2.resize(ea.size());
   //把解密的结果还原成向量
 	decode(ea,array2,de);
-	cout<<"result: "<<array2[1]<<"  vs  "<<array2[2]<<endl;
+	cout<<" a  vs  b = "<<array2[0]<<"  vs  "<<array2[1]<<endl;
 
   	time_end = chrono::high_resolution_clock::now();
   	time_diff = chrono::duration_cast<chrono::microseconds>(time_end - time_start);
