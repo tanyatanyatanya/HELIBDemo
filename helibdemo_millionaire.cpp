@@ -84,7 +84,7 @@ int main(int argc, char **argv)
 	ea.encrypt(cipher_text3,publicKey,plain_text3);
  
  //运算
-	cout<<"a*x+y b*x+y"<<endl;
+	cout<<"计算a*x+y b*x+y"<<endl;
 	cipher_text1*=cipher_text2;
 	cipher_text1+=cipher_text3;
 	cout<<"运算结束"<<endl;
